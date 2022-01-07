@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Log In</title>
+  <link rel="icon" type="images/png" href="images/iconweb.png">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <script src="javascript/loginJS.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+  <link href="css/signup.css" rel="stylesheet" type="text/css">
+
+  
+</head>
+
+<body background="images/login.jpg">
+  <div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+      <h2 class="active"> Login </h2>
+      <a href="register.html">
+        <h2 class="inactive underlineHover">Register</h2>
+      </a>
+
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="images/logo.png" id="icon" alt="Icon" />
+      </div>
+
+      <!-- Login Form -->
+      <form action="login.php" method="post" autocomplete="on">
+        <input type="text" class="fadeIn second" name="username" placeholder="Username" required>
+        <input type="password" class="fadeIn third" name="password" placeholder="Password" required>
+        <input type="submit" class="fadeIn fourth" value="Log In" style="margin:20px 0px 20px 0px;">
+      </form>
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover" href="index.html">กลับไปหน้าหลัก</a>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Register</title>
+	<link rel="icon" type="images/png" href="images/iconweb.png">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script src="javascript/loginJS.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	<link href="css/signup.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body background="images/login.jpg">
+	<div class="wrapper fadeInDown">
+		<div id="formContent">
+			<!-- Tabs Titles -->
+			<a href="login.html">
+				<h2 class="inactive underlineHover"> Login </h2>
+			</a>
+			<h2 class="active">Register</h2>
+
+			<!-- Icon -->
+			<div class="fadeIn first">
+				<img src="images/logo.png" id="icon" alt="Icon" />
+			</div>
+
+			<!-- Login Form -->
+			<form action="register.php" method="post" autocomplete="off">
+				<input type="text" class="fadeIn second" name="username" placeholder="Username" required>
+				<input type="password" class="fadeIn third" name="password" placeholder="Password" required>
+				<input type="email" class="fadeIn third" name="email" placeholder="E-Mail">
+				<input type="text" class="fadeIn third" name="name" placeholder="Your Name" required>
+				<input type="text" class="fadeIn third" name="address" placeholder="Address" required>
+				<input type="tel" class="fadeIn third" name="tel" placeholder="Tel Number">
+				<input type="submit" class="fadeIn fourth" value="Register" style="margin:20px 0px 20px 0px;">
+			</form>
+			<!-- Remind Passowrd -->
+			<div id="formFooter">
+				<a class="underlineHover" href="index.html">กลับไปหน้าหลัก</a>
+			</div>
+
+		</div>
+	</div>
+</body>
+
+</html>
